@@ -1,0 +1,19 @@
+.grid {
+
+  &__skew-light {
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+    background-color: $color-blue-one;
+    grid-column: 1/3;
+    grid-row: 3/5;
+  }
+
+  &__skew-dark {
+    -webkit-clip-path: polygon(0 0, 100% 0, 40% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 40% 100%, 0 100%);
+    background-color: $color-blue-two;
+    grid-column: 1/6;
+    grid-row: 1/5;
+    z-index: -1;
+  }
+}
