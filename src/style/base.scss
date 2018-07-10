@@ -1,6 +1,7 @@
 $color-blue-one: #5496e6;
 $color-blue-two: #518BDE;
 $color-gray-one: #444444;
+$color-gray-two: #e6e6e6;
 $color-yellow-one: #f7d754;
 
 .grid {
@@ -20,5 +21,19 @@ $color-yellow-one: #f7d754;
     font-weight: 100;
     justify-self: center;
     margin-top: 12.5%;
+  }
+
+  &__remaining {
+    grid-row: 4/-1;
+    grid-column: 1/-1;
+
+    text-align: center;
+    margin-top: 33px;
+    color: $color-gray-one;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+
   }
 }
