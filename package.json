@@ -10,10 +10,6 @@
     "precommit": "eslint src",
     "prod": "NODE_ENV=production node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:bottega-code-school/js-builder.git"
-  },
   "keywords": [
     "es6",
     "es7",
@@ -25,14 +21,8 @@
     "sass",
     "css module"
   ],
-  "author": "Your Name Here",
+  "author": "TechenPro",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bottega-code-school/js-builder/issues"
-  },
-  "homepage": "https://github.com/bottega-code-school/js-builder",
-  "devDependencies": {
-    "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {
     "autoprefixer": "^7.1.2",
